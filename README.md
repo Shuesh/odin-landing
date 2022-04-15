@@ -1,1 +1,1 @@
-# odin_landing
+# odin-landing

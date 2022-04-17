@@ -2,40 +2,38 @@
     font-family: sans-serif;
 }
 
+
+
 header{
     background-color: #1F2937;
     display: flex;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 50px 10px 50px;
     margin: -8px -8px -8px -8px;
+    color: white;
 }
 
 #logo {
     width: 50%;
-    height: 50px;
     margin-left: 100px;
-    text-align: left;
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bold;
-    background-color: red;
+    display: flex;
+    align-items: center;
 }
 
 #header-links {
     width: 50%;
-    height: 50px;
-    color: #E5E7EB;
-    font-size: 18px;
     margin-right: 100px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 #header-links ul {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: right;
     gap: 10%;
     list-style: none;
-    height: 50px;
-    background-color: red;
+    justify-content: right;
 }
 
 
@@ -58,7 +56,6 @@ header{
     justify-content: center;
     margin-left: 100px;
     color: white;
-    background-color: red;
 }
 
 #landing-text h1 {
@@ -78,7 +75,6 @@ header{
 
 #landing-pic {
     margin-right: 100px;
-    background-color: red;
 }
 
 #landing-pic img{

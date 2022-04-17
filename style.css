@@ -8,30 +8,33 @@
 header{
     background-color: #1F2937;
     display: flex;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 50px 10px 50px;
     margin: -8px -8px -8px -8px;
+    color: white;
 }
 
 #logo {
     width: 50%;
     margin-left: 100px;
-    text-align: left;
-    color: white;
-    background-color: red;
+    display: flex;
+    align-items: center;
 }
 
 #header-links {
     width: 50%;
-    color: white;
     margin-right: 100px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 #header-links ul {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 10%;
     list-style: none;
-    background-color: red;
+    justify-content: right;
 }
 
 

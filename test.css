@@ -31,11 +31,62 @@ header{
 #header-links ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: right;
+    gap: 10%;
     list-style: none;
     height: 50px;
     background-color: red;
 }
+
+
+
+
+#landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    background-color: #1F2937;
+    padding: 50px;
+    margin: 0px -8px 0px -8px;
+}
+
+#landing-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    margin-left: 100px;
+    color: white;
+    background-color: red;
+}
+
+#landing-text h1 {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+#landing-text button {
+    background: #3882F6;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 75px;
+    height: 35px;
+    font-weight: bold;
+}
+
+#landing-pic {
+    margin-right: 100px;
+    background-color: red;
+}
+
+#landing-pic img{
+    width: 100%;
+    height: auto;
+}
+
+
 
 
 
@@ -134,6 +185,7 @@ header{
     color: white;
     width: 75px;
     height: 35px;
+    font-weight: bold;
 }
 
 

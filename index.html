@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
@@ -19,55 +18,60 @@
             </ul>
         </div>
     </header>
+
     <div id="landing">
-        <div>
             <h1>This website is awesome</h1>
             <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
             <button type="button">Sign Up</button>
-        </div>
-        <img src="Assets/img.png">
+            <img src="Assets/image.jpg">
     </div>
+
     <div id="random-info">
         <h2>Some random information.</h2>
         <ul>
-            <li>
-                <img src="Assets/dunes.jpg">
-                <caption>this is some subtext for the dunes image</caption>
+            <li class="random-info-items">
+                <img src="Assets/dunes.jpg" class="img-list">
+                <p class="img-caption">this is some subtext for the dunes image</p>
             </li>
-            <li>
-                <img src="Assets/forest.jpg">
-                <caption>this is some subtext for the forest image</caption>
+            <li class="random-info-items">
+                <img src="Assets/forest.jpg" class="img-list">
+                <p class="img-caption">this is some subtext for the forest image</p>
             </li>
-            <li>
-                <img src="Assets/sky.jpg">
-                <caption>this is some subtext for the sky image</caption>
+            <li class="random-info-items">
+                <img src="Assets/sky.jpg" class="img-list">
+                <p class="img-caption">this is some subtext for the sky image</p>
             </li>
-            <li>
-                <img src="Assets/waterfall.jpg">
-                <caption>this is some subtext for the waterfall image</caption>
+            <li class="random-info-items">
+                <img src="Assets/waterfall.jpg" class="img-list">
+                <p class="img-caption">this is some subtext for the waterfall image</p>
             </li>
         </ul>
     </div>
+
     <div id="quote">
-        <p>
+        <p id="quote-text">
             This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? 
             All I know is that it looks nice.
         </p>
-        <p>
+        <p id="attribution">
             <strong>-Thor, god of Thunder</strong>
         </p>
     </div>
-    <div id="call-to-action">
-        <div>
-            <div>
-                <h3>Call to action! It's time!</h3>
+
+    <div id="call-to-action-container">
+        <div id="call-to-action">
+            <div id="text">
+                <p><strong>Call to action! It's time!</strong></p>
                 <p>Sign up for our product by clicking that button right over there!</p>
             </div>
-            <button type="button">Sign Up</button>
+            <div id="action-button">
+                <button type="button">Sign Up</button>
+            </div>
         </div>
     </div>
+
     <footer>
-        <p>
+        <p id="footer-text">
             Copyright &copy; The Odin Project 2021
         </p>
     </footer>
